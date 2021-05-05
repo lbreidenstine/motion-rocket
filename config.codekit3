@@ -112,6 +112,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/flight-path.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/flight-path-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
@@ -120,6 +131,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/space-ship.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/space-ship-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -380,7 +402,7 @@
 "projectAttributes": {
 	"creationDate": 639010553.72737396,
 	"displayValue": "motion-rocket",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-peach",
 	"iconImageWasSetByUser": 0
 	},
