@@ -1,0 +1,1 @@
+import{gsap}from"gsap";export let landingTL=gsap.timeline();landingTL.to("#space-ship",{duration:1,x:"-=100",y:"+=100",rotation:"-=20"},"flames").to("#flames",{duration:1,scaleY:0},"flames");

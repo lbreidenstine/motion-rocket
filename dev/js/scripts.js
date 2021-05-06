@@ -3,7 +3,9 @@ import { GSDevTools } from "gsap/GSDevTools";
 
 import { zoomTL } from "./zoomIn"
 import { spaceShipTL } from "./space-ship"
-import { flightPathTL } from "./flight-path"
+import { flightPathTL } from "./flightPath"
+import { moonZoomInTL } from "./moonZoom"
+import { landingTL } from "./landing"
 
 gsap.registerPlugin(GSDevTools);
 
@@ -11,8 +13,9 @@ let mainTL = gsap.timeline();
 
 mainTL.add(zoomTL)
         .add(spaceShipTL)
-        .add(flightPathTL);
-
+        .add(flightPathTL,"zoomFlight")
+        .add(moonZoomInTL,"zoomFlight")
+        .add(landingTL);
 
 
 
